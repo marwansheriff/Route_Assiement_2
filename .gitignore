@@ -1,0 +1,17 @@
+[Bb]in/
+[Oo]bj/
+
+*.user
+*.suo
+*.cache
+*.pdb
+*.dll
+*.exe
+
+.vs/
+.vscode/
+
+TestResults/
+*.trx
+
+packages/
