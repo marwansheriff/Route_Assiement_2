@@ -83,7 +83,7 @@ Console.WriteLine("Q10");
 Console.WriteLine();
 
 Console.WriteLine(b1.ChoiceAssist());
-Console.WriteLine(b2.ChoiceAssist());
+Console.WriteLine(b3.ChoiceAssist());
 Console.WriteLine(b2.ChoiceAssist());
 
 // Q11
@@ -132,6 +132,7 @@ do
 Console.WriteLine();
 Console.WriteLine("Q15");
 Console.WriteLine();
+
 foreach (string book in books)
 {
     Console.WriteLine(book);
@@ -180,7 +181,7 @@ string PrintFirstBook(string[] books)
     return "";
 }
 
-PrintFirstBook(books);
+Console.WriteLine(PrintFirstBook(books));
 
 
 
